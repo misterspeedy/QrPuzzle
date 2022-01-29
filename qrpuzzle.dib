@@ -5,10 +5,10 @@
 ## What is this?
 
 You can use this notebook to make a fun puzzle using someone's name or another significant sequence of characters.
-When printed out, if you shade in only the squares containing these characters, the result is a valid QR code
+If you print it and shade in only the squares containing these characters, the result is a valid QR code
 which can be scanned to reveal, for example, the destination of a surprise trip.
 
-The shading will have to be black, though you could experiment with printing out in another color and shading in that color.
+The shading will have to be black, though you could experiment with printing in another color and shading in that color.
 
 ![](montmorency.svg)
 
@@ -21,7 +21,7 @@ The shading will have to be black, though you could experiment with printing out
 ## Instructions
 
 - Use https://www.qr-code-generator.com to create a QR code of your chosen destination (e.g. https://www.altontowers.com)
-- Download as SVG using the first available QR code style (solid squares)
+- Download as SVG using the first available QR code style (solid squares). *You'll need to sign up to be able to download SVG's.*
 - Save as `raw.svg` in the same directory as this notebook
 - Open the `raw.svg` in VS Code and a browser, and verify that it consists of a 25x25 grid of dark squares, each 64 pixels in size. If different
 sizes have been generated you may have to edit the constants in the `Scale` module.
