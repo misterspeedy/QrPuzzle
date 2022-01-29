@@ -4,5 +4,7 @@ You can use this notebook to make a fun puzzle using someone's name or another s
 If you print it and shade in only the squares containing these characters, the result is a valid QR code
 which can be scanned to reveal, for example, the destination of a surprise trip.
 
+*An example for someone called "Montmorency". Shade all the squares containing "M", "O", etc.*
+
 ![](montmorency.svg)
 
